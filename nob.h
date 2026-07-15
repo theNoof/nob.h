@@ -786,7 +786,7 @@ NOBDEF char *nob_temp_running_executable_path(void);
 // TODO: we should probably document somewhere all the compilers we support
 
 // The nob_cc_* macros try to abstract away the specific compiler.
-// They are verify basic and not particularly flexible, but you can redefine them if you need to
+// They are very basic and not particularly flexible, but you can redefine them if you need to
 // or not use them at all and create your own abstraction on top of Nob_Cmd.
 
 #ifndef nob_cc
